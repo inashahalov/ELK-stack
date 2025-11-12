@@ -1,0 +1,28 @@
+site_name: 'ELK-стек: Образовательный курс'
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+  palette:
+    scheme: slate
+    toggle:
+      icon: material/theme-light-dark
+      name: Switch to light mode
+nav:
+  - 'Главная': 'index.md'
+  - 'Модули курса':
+    - 'Модуль 1. Введение в системы наблюдаемости**': 'modules/module_01.md'
+    - 'Модуль 2. Архитектура ELK-стека**': 'modules/module_02.md'
+    - 'Модуль 3. Сбор и обработка логов**': 'modules/module_03.md'
+    - 'Модуль 4. Mapping, Dynamic Templates и типы данных**': 'modules/module_04.md'
+    - 'Модуль 5. Хранение и масштабирование**': 'modules/module_05.md'
+    - 'Модуль 6. Поиск и анализ в Kibana**': 'modules/module_06.md'
+    - 'Модуль 7. Алертинг и машинное обучение**': 'modules/module_07.md'
+    - 'Модуль 8. Structured Logging и контракты событий**': 'modules/module_08.md'
+    - 'Модуль 9. Интеграция с другими системами**': 'modules/module_09.md'
+    - 'Модуль 10. Миграция, мониторинг и производительность**': 'modules/module_10.md'
+  - 'Практика':
+    - 'Лабораторные работы': 'practice/labs.md'
